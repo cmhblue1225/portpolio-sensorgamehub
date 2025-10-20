@@ -1,0 +1,24 @@
+# Railway 배포 시 제외할 파일들
+
+# 개발 파일
+.env
+.env.local
+.DS_Store
+*.log
+
+# 테스트 파일
+test-reports/
+coverage/
+
+# 문서 (선택사항 - 용량 절약)
+docs/
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# 임시 파일
+dist/
+*.tmp
